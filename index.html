@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="files_new/logo.jpg" />
+    <link rel="icon" href="favicon.ico" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,22 +16,11 @@
     </title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="./files_new/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link href="./files_new/agency.css" rel="stylesheet" />
+    <link href="./css/agency.css" rel="stylesheet" />
 
-    <!-- Custom Fonts -->
-    <link
-      href="./files_new/font-awesome.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="./files_new/css" rel="stylesheet" type="text/css" />
-    <link href="./files_new/css(1)" rel="stylesheet" type="text/css" />
-    <link href="./files_new/css(2)" rel="stylesheet" type="text/css" />
-    <link href="./files_new/css(3)" rel="stylesheet" type="text/css" />
-    <link href="./files_new/css2" rel="stylesheet" type="text/css" />
   </head>
 
   <body id="page-top" class="index">
@@ -69,6 +58,10 @@
 
               <li>
                 <a class="page-scroll" href="#introduction">Introduction</a>
+              </li>
+
+              <li>
+                <a class="page-scroll" href="#topics">Topics</a>
               </li>
 
               <li>
@@ -179,6 +172,7 @@
         }
 
         #introduction,
+        #topics,
         #call,
         #dates,
         #organization {
@@ -226,49 +220,136 @@
           </style>
           <div class="overview-section">
             <div class="intro-text">
-              AI-for-Science (AI4S) has emerged as a rapidly growing research
-              area, driven by the availability of large-scale scientific
-              datasets and advances in AI technologies. These methods are
-              increasingly applied to scientific tasks such as protein structure
-              prediction, single-cell genomics, and climate and Earth system
-              modeling. Their effectiveness critically depends on the quality
+              <b>AI-for-Science (AI4S)</b> has emerged as a rapidly growing
+              research area, driven by the increasing availability of large-scale
+              scientific datasets and rapid advances in AI technologies. Recent
+              advances in scientific foundation models, large language models,
+              and AI agents are increasingly supporting scientific discovery
+              across diverse domains through knowledge representation, data
+              analysis, hypothesis generation, and workflow automation. AI
+              methods are now being widely applied to a broad range of
+              scientific tasks, including protein structure prediction,
+              single-cell genomics, materials discovery, drug discovery, climate
+              modeling, and Earth system science. Despite these advances, the
+              effectiveness of AI4S methods critically depends on the quality
               and AI-readiness of scientific datasets, as well as the
-              performance, robustness, and reliability of AI models. Systematic
-              evaluation of data, models, and applications is essential to
-              ensure reproducible and trustworthy scientific discoveries.
+              performance, robustness, reliability, and trustworthiness of AI
+              models and agent-based systems. Therefore, systematic evaluation
+              of data, models, agents, and applications has become essential for
+              ensuring reproducible, transparent, and trustworthy scientific
+              discoveries. To this end, <b>AI4S-Bench</b> aims to bring
+              together researchers and practitioners from data mining, machine
+              learning, and diverse scientific domains to discuss critical
+              challenges and emerging opportunities in AI4S benchmarking. The
+              workshop will focus on the development of standardized datasets,
+              evaluation protocols, and metrics for assessing AI4S data, models,
+              agents, and applications. It also seeks to encourage
+              reproducibility, transparency, and FAIR principles across
+              different scientific domains. By providing a focused forum for
+              discussion and collaboration, <b>AI4S-Bench</b> aims to foster the
+              development of reliable and broadly applicable benchmarking
+              practices for AI-driven scientific research.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Topics of Interest Section -->
+    <section id="topics">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-heading">Topics of Interest</h2>
+          </div>
+        </div>
+        <div class="row text-justify">
+          <div class="overview-section">
+            <div class="intro-text">
+              <b>AI4S-Bench</b> aims to bring together leading researchers and
+              practitioners to exchange and share their latest research,
+              experiences, and application results on benchmarking AI for
+              Science. The workshop will provide an interdisciplinary forum to
+              discuss recent advances, emerging trends, innovative applications,
+              and real-world challenges in the systematic evaluation of
+              scientific datasets, AI models, AI agents, and AI4S applications,
+              as well as corresponding benchmarking methodologies and best
+              practices.
               <br /><br />
-              <b>AI4S-Bench</b> aims to foster research on AI4S benchmarking by
-              promoting the development of standardized datasets, evaluation
-              protocols, and metrics, while encouraging reproducibility,
-              transparency, and FAIR principles across diverse scientific
-              domains. By providing a forum for discussion and collaboration,
-              AI4S-Bench aligns with ICDM's mission of advancing knowledge
-              discovery and data mining.
+              Topics of interest include, but are not limited to:
             </div>
 
-            <h3 style="color: #2d3748; margin: 30px 0 20px">
-              Topics We Aim to Address
-            </h3>
+            <p
+              class="large"
+              style="font-weight: 700; color: #444; margin: 24px 0 8px"
+            >
+              Scientific Data Evaluation
+            </p>
+            <ul class="large text-muted" style="width: 100%; padding-left: 24px">
+              <li>Methods for assessing data quality and AI-readiness</li>
+              <li>
+                Standardized metrics and protocols for scientific datasets
+              </li>
+              <li>
+                Design, curation, and application of benchmark datasets
+              </li>
+            </ul>
 
-            <ul class="large text-muted" style="float: left; width: 100%">
+            <p
+              class="large"
+              style="font-weight: 700; color: #444; margin: 24px 0 8px"
+            >
+              Evaluation of AI Models and Agents for Science
+            </p>
+            <ul class="large text-muted" style="width: 100%; padding-left: 24px">
               <li>
-                <b>Scientific Data Evaluation</b> — Assessing data quality,
-                AI-readiness, and standardized metrics for scientific datasets.
+                Task-specific evaluation of AI models for scientific problems
               </li>
               <li>
-                <b>Evaluation of AI Models and Agents for Science</b> —
-                Benchmarking performance, reliability, and robustness of AI
-                models and LLM-based agents on scientific tasks.
+                Assessment of the performance, reliability, and robustness of
+                large language models and AI agents on scientific tasks
               </li>
               <li>
-                <b>Benchmarking AI4S Applications for Scientific Discovery</b> —
-                Evaluating AI-assisted workflows, hypothesis generation, and
-                knowledge discovery pipelines.
+                Evaluation of the interpretability, safety, and transparency of
+                AI models and agent-based systems in scientific research
               </li>
               <li>
-                <b>Standards and Best Practices for Reproducible AI4S</b> —
-                Promoting FAIR principles, transparency, and community-wide
-                guidelines for evaluating AI in science.
+                Development of standardized benchmarks and evaluation
+                frameworks for comparing AI approaches across scientific domains
+              </li>
+            </ul>
+
+            <p
+              class="large"
+              style="font-weight: 700; color: #444; margin: 24px 0 8px"
+            >
+              Benchmarking AI4S Applications for Scientific Discovery
+            </p>
+            <ul class="large text-muted" style="width: 100%; padding-left: 24px">
+              <li>
+                Evaluation of AI-assisted workflows, hypothesis generation, and
+                knowledge discovery
+              </li>
+              <li>
+                Assessment of AI-driven decision support and experimental design
+                in scientific research
+              </li>
+            </ul>
+
+            <p
+              class="large"
+              style="font-weight: 700; color: #444; margin: 24px 0 8px"
+            >
+              Standards and Best Practices
+            </p>
+            <ul class="large text-muted" style="width: 100%; padding-left: 24px">
+              <li>
+                Community-wide guidelines for reproducible benchmarking of
+                datasets, models, and AI4S methods
+              </li>
+              <li>
+                Promotion of transparency, FAIR principles, and consistent
+                reporting of AI performance in science
               </li>
             </ul>
           </div>
@@ -286,18 +367,25 @@
             <div class="row text-justify">
               <div class="col-md-12">
                 <p class="large text-muted">
-                  The
-                  <b
-                    >1st International Workshop on AI-for-Science Benchmarking
-                    (AI4S-Bench) @ ICDM 2026</b
-                  >
-                  invites submissions on all aspects of benchmarking AI for
-                  science, including datasets, models, evaluation methodologies,
-                  and scientific discovery. We welcome contributions from
-                  researchers in machine learning and data mining, as well as
-                  scholars in the natural sciences (such as physics, chemistry,
-                  biology, geosciences) whose work necessitates rigorous
-                  evaluation of AI4S methods.
+                  We invite submissions of <b>regular research papers</b>,
+                  <b>vision papers</b>, and <b>extended abstracts</b>.
+                  Regular research papers should be no more than 8 pages,
+                  while vision papers and extended abstracts
+                  should be 4–6 pages, including all content and references. All
+                  submissions must be in PDF format and formatted according to
+                  the latest
+                  <a
+                    href="https://www.ieee.org/conferences/publishing/templates"
+                    target="_blank"
+                    >IEEE Conference Proceedings Template</a
+                  >. Submissions will be evaluated based on relevance, technical
+                  quality, potential impact, clarity, reproducibility, and
+                  contribution to AI-for-Science benchmarking. This year, we
+                  will also establish <b>Best Paper Awards</b> to recognize
+                  outstanding submissions. By ICDM tradition, all accepted
+                  workshop papers will be published in the dedicated ICDMW
+                  proceedings by the IEEE Computer Society Press. The submission
+                  link will be announced soon.
                 </p>
 
                 <div
@@ -308,193 +396,53 @@
                       sans-serif;
                   "
                 >
-                  <h1
-                    style="
-                      font-family: &quot;Georgia&quot;, serif;
-                      font-size: 2.5rem;
-                      margin-bottom: 1.5rem;
-                      color: #2c5282;
-                      font-weight: 600;
-                    "
-                  >
+                  <h3 style="color: #2d3748; margin: 30px 0 20px">
                     Key Dates
-                  </h1>
+                  </h3>
 
-                  <ul class="large text-muted" style="float: left; width: 100%">
+                  <ul
+                    class="large text-muted"
+                    style="width: 100%; padding-left: 24px"
+                  >
                     <li style="margin-bottom: 0rem">
                       <span style="font-weight: bold"
-                        >Paper Submission Deadline:</span
+                        >Workshop Paper Submission:</span
                       >
-                      TBA
+                      August 20, 2026
                     </li>
                     <li style="margin-bottom: 0rem">
                       <span style="font-weight: bold"
-                        >Notification of Acceptance:</span
+                        >Workshop Paper Notifications:</span
                       >
-                      TBA
+                      September 18, 2026
                     </li>
                     <li style="margin-bottom: 0rem">
                       <span style="font-weight: bold"
-                        >Camera-ready Deadline:</span
+                        >Camera Ready:</span
                       >
-                      TBA
+                      October 5, 2026
                     </li>
                     <li style="margin-bottom: 0rem">
-                      <span style="font-weight: bold">Workshop Date:</span> TBA
+                      <span style="font-weight: bold">Workshop Date:</span>
+                      November 12, 2026
                     </li>
                   </ul>
 
-                  <p style="margin-top: 1.5rem; line-height: 1.5">
+                  <p class="large text-muted" style="margin-top: 1.5rem">
                     All deadlines follow the
-                    <span style="color: #1d6eb0">Anywhere on Earth (AoE)</span>
+                    <a
+                      href="https://www.timeanddate.com/time/zones/aoe"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Anywhere on Earth (AoE)</a
+                    >
                     timezone.
                   </p>
-                </div>
-
-                <div
-                  style="
-                    font-family:
-                      system-ui,
-                      -apple-system,
-                      sans-serif;
-                  "
-                >
-                  <h1
-                    style="
-                      font-family: &quot;Georgia&quot;, serif;
-                      font-size: 2.5rem;
-                      margin-bottom: 1.5rem;
-                      color: #2c5282;
-                      font-weight: 600;
-                    "
-                  >
-                    Submission Site
-                  </h1>
 
                   <p class="large text-muted">
-                    Submission link will be announced. Please check back later.
+                    <b>Contact:</b> For any questions, please contact us at
+                    <a href="mailto:qinchuan@cnic.cn">qinchuan@cnic.cn</a>.
                   </p>
-                </div>
-
-                <div
-                  style="
-                    font-family:
-                      system-ui,
-                      -apple-system,
-                      sans-serif;
-                  "
-                >
-                  <h1
-                    style="
-                      font-family: &quot;Georgia&quot;, serif;
-                      font-size: 2.5rem;
-                      margin-bottom: 1.5rem;
-                      color: #2c5282;
-                      font-weight: 600;
-                    "
-                  >
-                    Scope
-                  </h1>
-
-                  <p class="large text-muted">
-                    We welcome contributions across a broad spectrum of topics,
-                    including but not limited to:
-                  </p>
-
-                  <ul class="large text-muted" style="float: left; width: 100%">
-                    <li>
-                      Methods for assessing data quality and AI readiness of
-                      scientific datasets
-                    </li>
-                    <li>
-                      Standardized metrics, evaluation protocols, and benchmark
-                      datasets across scientific domains
-                    </li>
-                    <li>
-                      Task-specific evaluation for scientific models (e.g.,
-                      protein structure, single-cell genomics, climate modeling)
-                    </li>
-                    <li>
-                      Assessing performance, reliability, robustness, and safety
-                      of LLMs and agentic AI on scientific tasks
-                    </li>
-                    <li>
-                      Interpretability, transparency, and trustworthiness of AI
-                      in scientific research
-                    </li>
-                    <li>
-                      Standardized benchmarks and evaluation frameworks for
-                      cross-domain comparison
-                    </li>
-                    <li>
-                      Evaluating AI-assisted workflows, hypothesis generation,
-                      and knowledge discovery
-                    </li>
-                    <li>
-                      Assessing AI-driven decision support and experimental
-                      design in scientific research
-                    </li>
-                    <li>
-                      Community-wide guidelines for reproducible benchmarking
-                      and FAIR principles in AI4S
-                    </li>
-                  </ul>
-                </div>
-
-                <div
-                  style="
-                    font-family:
-                      system-ui,
-                      -apple-system,
-                      sans-serif;
-                  "
-                >
-                  <h1
-                    style="
-                      font-family: &quot;Georgia&quot;, serif;
-                      font-size: 2.5rem;
-                      margin-bottom: 1.5rem;
-                      color: #2c5282;
-                      font-weight: 600;
-                    "
-                  >
-                    Submission Guidelines
-                  </h1>
-
-                  <p class="large text-muted">
-                    <mybold>Format:</mybold> &nbsp;All submissions must be a
-                    single PDF file, formatted according to the latest
-                    <b>IEEE Conference Proceedings Template</b>. We welcome
-                    high-quality original papers in the following two tracks:
-                  </p>
-                  <ul class="large text-muted" style="float: left; width: 100%">
-                    <li style="margin-bottom: 0rem">
-                      <span style="font-weight: bold"
-                        >Regular Research Papers:</span
-                      >
-                      8 pages (including all content and references)
-                    </li>
-                    <li style="margin-bottom: 0rem">
-                      <span style="font-weight: bold"
-                        >Vision Papers and Short Technical Papers:</span
-                      >
-                      4–6 pages (including all content and references)
-                    </li>
-                  </ul>
-
-                  <p class="large text-muted">
-                    <mybold>Best Paper Award:</mybold> &nbsp; Best paper awards
-                    will be considered to recognize outstanding submissions.
-                  </p>
-
-                  <p class="large text-muted">
-                    <mybold>Contact:</mybold> &nbsp; For any questions, please
-                    contact us at
-                    <a href="mailto:ai4sbench2026@easychair.org"
-                      >ai4sbench2026@easychair.org</a
-                    >.
-                  </p>
-                  <br />
                 </div>
               </div>
             </div>
@@ -631,6 +579,14 @@
           text-align: center;
         }
 
+        .organizers-grid .team-member a,
+        .organizers-grid .team-member a:hover,
+        .organizers-grid .team-member a:focus,
+        .organizers-grid .team-member a:active {
+          color: inherit;
+          text-decoration: none;
+        }
+
         .organizers-grid .team-member img {
           width: 150px;
           height: 150px;
@@ -669,33 +625,45 @@
         <div class="organizers-grid">
           <!-- TODO: replace placeholder with actual photos -->
           <div class="team-member">
-            <img
-              src="./img/zhu hengshu.png"
-              class="img-responsive img-circle"
-            />
-            <a href="https://www.zhuhengshu.com/" target="_blank">
+            <a
+              href="https://www.zhuhengshu.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/zhu hengshu.png"
+                class="img-responsive img-circle"
+              />
               <h4>Hengshu Zhu</h4>
             </a>
             <p class="text-muted">CNIC, Chinese Academy of Sciences</p>
           </div>
 
           <div class="team-member">
-            <img
-              src="./img/qin chuan.png"
-              class="img-responsive img-circle"
-            />
-            <a href="https://dylan-qin.github.io/" target="_blank">
+            <a
+              href="https://dylan-qin.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/qin chuan.png"
+                class="img-responsive img-circle"
+              />
               <h4>Chuan Qin</h4>
             </a>
             <p class="text-muted">CNIC, Chinese Academy of Sciences</p>
           </div>
 
           <div class="team-member">
-            <img
-              src="./img/liu chuanren.png"
-              class="img-responsive img-circle"
-            />
-            <a href="https://haslam.utk.edu/people/profile/chuanren-liu/" target="_blank">
+            <a
+              href="https://haslam.utk.edu/people/profile/chuanren-liu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/liu chuanren.png"
+                class="img-responsive img-circle"
+              />
               <h4>Chuanren Liu</h4>
             </a>
             <p class="text-muted">University of Tennessee, Knoxville</p>
@@ -706,18 +674,20 @@
               src="./img/huang xinghui.jpg"
               class="img-responsive img-circle"
             />
-            <a href="#">
-              <h4>Xinghui Huang</h4>
-            </a>
+            <h4>Xinghui Huang</h4>
             <p class="text-muted">China Earthquake Networks Center</p>
           </div>
 
           <div class="team-member">
-            <img
-              src="./img/liu qi.png"
-              class="img-responsive img-circle"
-            />
-            <a href="http://staff.ustc.edu.cn/~qiliuql/" target="_blank">
+            <a
+              href="http://staff.ustc.edu.cn/~qiliuql/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/liu qi.png"
+                class="img-responsive img-circle"
+              />
               <h4>Qi Liu</h4>
             </a>
             <p class="text-muted">
@@ -726,11 +696,15 @@
           </div>
 
           <div class="team-member">
-            <img
-              src="./img/xiong hui.png"
-              class="img-responsive img-circle"
-            />
-            <a href="https://www.hkust-gz.edu.cn/people/hui-xiong/" target="_blank">
+            <a
+              href="https://www.hkust-gz.edu.cn/people/hui-xiong/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/xiong hui.png"
+                class="img-responsive img-circle"
+              />
               <h4>Hui Xiong</h4>
             </a>
             <p class="text-muted">HKUST (Guangzhou)</p>
@@ -740,20 +714,17 @@
     </section>
 
     <!-- jQuery -->
-    <script src="./files_new/jquery.js"></script>
+    <script src="./js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="./files_new/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="./files_new/jquery.easing.min.js"></script>
-    <script src="./files_new/classie.js"></script>
-    <script src="./files_new/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="./files_new/contact_me.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/classie.js"></script>
+    <script src="./js/cbpAnimatedHeader.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="./files_new/agency.js"></script>
+    <script src="./js/agency.js"></script>
   </body>
 </html>
