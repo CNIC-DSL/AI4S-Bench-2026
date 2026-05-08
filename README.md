@@ -4,6 +4,8 @@
 Co-located with **IEEE ICDM 2026**  
 **November 12, 2026 | Shenyang, China**
 
+Workshop homepage: [http://www.bigdatamining.cn/AI4S-Bench-2026/](http://www.bigdatamining.cn/AI4S-Bench-2026/)
+
 AI4S-Bench 2026 is an interdisciplinary workshop focused on benchmarking data, models, agents, and applications for AI-driven scientific discovery. The workshop aims to bring together researchers and practitioners from data mining, machine learning, and diverse scientific domains to discuss critical challenges and emerging opportunities in AI-for-Science benchmarking.
 
 ## Scope
